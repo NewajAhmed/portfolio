@@ -1,13 +1,56 @@
+
+@import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fredoka+One|Pacifico&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: rgb(147,47,119);
+  background: linear-gradient(90deg, rgba(147,47,119,1) 22%, rgba(44,39,133,1) 55%, rgba(50,58,201,1) 91%, rgba(0,212,255,1) 100%);
+height: 195rem;
+
+
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 2rem;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: "Fredoka One", cursive;
+  font-size: 15px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input[type=submit] {
+  background-color: #ef5777;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 7rem;
+  cursor: pointer;
+  font-size: 15px;
 }
+
+input[type=submit]:hover {
+  background-color: #2B2B52;
+  font-size: 15px;
+}
+
+.container {
+  border-radius: 5px;
+  background-color:#ffa801;
+  padding: 20px;
+  opacity: 0.9;
+  font-size: 15px;
+}
+.copyRight{
+  text-align: center;
+}
+
+
+
+  
+
